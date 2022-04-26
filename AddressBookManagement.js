@@ -20,6 +20,9 @@ while (flag) {
             console.log(contactList);
             break;
         case 3:
+            contactList = addressBook.editContact(contactList);
+            break;
+        case 4:
             flag = false;
             break;
         default:
